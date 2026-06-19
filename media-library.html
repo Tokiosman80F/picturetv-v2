@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Library | Picture TV Media — picturetv.net</title>
+  <meta name="description" content="Picture TV Media library — photos, videos, and media assets from 150+ events. Browse event coverage, brand interviews, and client spotlights.">
+  <link rel="stylesheet" href="css/main.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+</head>
+<body>
+
+  <div id="nav-placeholder"></div>
+
+  <div class="pt-nav">
+    <section class="sec">
+      <div class="container">
+        <div class="sec-head fu">
+          <div class="slbl">Our Archive</div>
+          <h1 class="sh">Media <em>Library</em></h1>
+          <div class="srule"></div>
+          <p class="ssub">Browse our collection of photos, videos, and media assets from 150+ events and 500+ brand features.</p>
+        </div>
+
+        <div class="watch-pill-row">
+          <span class="wpill on">All Media</span>
+          <span class="wpill">Photos</span>
+          <span class="wpill">Videos</span>
+          <span class="wpill">NYFW</span>
+          <span class="wpill">Trade Shows</span>
+          <span class="wpill">Interviews</span>
+        </div>
+
+        <div class="media-grid">
+          <div class="media-thumb fu">📸</div>
+          <div class="media-thumb fu fd1">🎬</div>
+          <div class="media-thumb fu fd2">💎</div>
+          <div class="media-thumb fu fd3">💄</div>
+          <div class="media-thumb fu">✨</div>
+          <div class="media-thumb fu fd1">🍽️</div>
+          <div class="media-thumb fu fd2">🤖</div>
+          <div class="media-thumb fu fd3">🏢</div>
+          <div class="media-thumb fu">🏗️</div>
+          <div class="media-thumb fu fd1">🚗</div>
+          <div class="media-thumb fu fd2">👗</div>
+          <div class="media-thumb fu fd3">🎤</div>
+          <div class="media-thumb fu">🌍</div>
+          <div class="media-thumb fu fd1">✳</div>
+          <div class="media-thumb fu fd2">📷</div>
+          <div class="media-thumb fu fd3">🎞️</div>
+        </div>
+
+        <div style="text-align:center;margin-top:40px">
+          <button class="btn btn-primary js-scroll-form">Request Full Media Package →</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div id="footer-placeholder"></div>
+
+  <div id="nl-overlay" style="position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:99999;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .4s ease;" role="dialog" aria-modal="true">
+    <div style="background:#0a0a0a;border:1px solid #39b54a;border-radius:20px;padding:44px 40px;max-width:460px;width:100%;position:relative;text-align:center;box-shadow:0 24px 80px rgba(57,181,74,0.18);transform:translateY(20px);transition:transform .4s ease;" id="nl-card">
+      <button id="nl-dismiss-btn" style="position:absolute;top:16px;right:20px;background:none;border:none;color:rgba(255,255,255,0.4);font-size:22px;cursor:pointer;line-height:1;" aria-label="Close">✕</button>
+      <div id="nl-form-view">
+        <img src="https://media.base44.com/images/public/6a07707be6e81724faed56b3/5c91e29a3_PictureTV01.png" alt="Picture TV Media" style="width:72px;height:72px;border-radius:50%;object-fit:contain;margin-bottom:16px;">
+        <div style="display:inline-block;background:rgba(57,181,74,0.15);color:#39b54a;font-size:10px;font-weight:800;letter-spacing:2px;padding:4px 14px;border-radius:100px;margin-bottom:14px;text-transform:uppercase;">Stay In The Loop</div>
+        <h2 style="color:#fff;font-weight:900;font-size:24px;margin:0 0 10px;line-height:1.2;">Get the Latest from<br><span style="color:#39b54a;">Picture TV Media</span></h2>
+        <p style="color:rgba(255,255,255,0.6);font-size:13px;margin:0 0 26px;line-height:1.65;">Event coverage, industry insights, Mala Speak Sunday updates,<br>and exclusive visibility strategies — delivered to your inbox.</p>
+        <form id="nl-form" style="display:flex;flex-direction:column;gap:11px;">
+          <input id="nl-name" type="text" placeholder="Your First Name" required style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:13px 16px;color:#fff;font-size:14px;outline:none;width:100%;box-sizing:border-box;">
+          <input id="nl-email" type="email" placeholder="Your Email Address" required style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:13px 16px;color:#fff;font-size:14px;outline:none;width:100%;box-sizing:border-box;">
+          <button type="submit" id="nl-btn" style="background:#39b54a;color:#000;font-weight:900;padding:14px;border-radius:10px;border:none;font-size:15px;cursor:pointer;transition:.2s;margin-top:2px;">✅ Yes, Keep Me Updated →</button>
+        </form>
+        <p style="color:rgba(255,255,255,0.22);font-size:11px;margin-top:16px;">No spam. Unsubscribe anytime.</p>
+      </div>
+      <div id="nl-success-view" style="display:none;">
+        <div style="font-size:52px;margin-bottom:16px;">🎉</div>
+        <h2 style="color:#39b54a;font-weight:900;font-size:26px;margin:0 0 12px;">You're In!</h2>
+        <p style="color:rgba(255,255,255,0.75);font-size:15px;line-height:1.6;" id="nl-success-msg">Welcome to the Picture TV community!</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/newsletter.js"></script>
+  <script src="js/components.js"></script>
+</body>
+</html>
