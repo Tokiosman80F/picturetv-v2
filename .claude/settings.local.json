@@ -1,7 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Bash(awk '{print $5, $NF}')"
+      "Bash(awk '{print $5, $NF}')",
+      "Bash(python -m http.server 8123)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8123/index.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8123/includes/nav.html)",
+      "Bash(npx --yes http-server -p 8123 -c-1)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8123/css/main.css)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8123/index.html)",
+      "Bash(npm init *)",
+      "Bash(npx --yes playwright@1.48.0 install chromium)",
+      "Bash(node shot.js)",
+      "Bash(node shot2.js)",
+      "Bash(rm -f shot.js shot2.js shot-*.png package.json package-lock.json)",
+      "Bash(rm -rf node_modules)",
+      "Bash(ls *.png shot*.js node_modules)"
     ]
   }
 }

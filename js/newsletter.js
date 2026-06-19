@@ -41,7 +41,7 @@ function submitNewsletter(e) {
   }).catch(function () {}).finally(function () {
     var msg = document.getElementById('nl-success-msg');
     var firstName = name.split(' ')[0];
-    msg.innerHTML = 'Welcome to the Picture TV community, <strong style="color:#39b54a">' + firstName + '</strong>!<br>Check your inbox for a welcome message from Mala.';
+    msg.innerHTML = 'Welcome to the Picture TV community, <strong style="color:#2E7D5B">' + firstName + '</strong>!<br>Check your inbox for a welcome message from Mala.';
     document.getElementById('nl-form-view').style.display = 'none';
     document.getElementById('nl-success-view').style.display = 'block';
     localStorage.setItem('ptv_newsletter_seen', Date.now().toString());
